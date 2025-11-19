@@ -16,15 +16,15 @@ const horizon = Orbitron({
 })
 
 export const metadata: Metadata = {
-  title: 'TUĞCU İnşaat ve Tadilat | Beylikdüzü, Esenyurt, İstanbul - Satılık Ev, Tadilat, İnşaat',
-  description: 'Beylikdüzü, Esenyurt, Büyükçekmece, Küçükçekmece, Silivri ve Halkalı\'da profesyonel inşaat, tadilat ve emlak hizmetleri. Beylikdüzü satılık ev, ev tadilatı, bina inşaatı. 15 yıllık deneyim, 70+ tamamlanmış proje.',
-  keywords: 'beylikdüzü satılık ev, beylikdüzü tadilat, esenyurt tadilat, istanbul tadilat, küçükçekmece tadilat, büyükçekmece inşaat, silivri tadilat, halkalı inşaat, tugcu inşaat, ev tadilatı istanbul, beylikdüzü emlak, esenyurt inşaat, istanbul inşaat firması',
-  authors: [{ name: 'Tuğcu İnşaat' }],
+  title: 'TUGCU İnşaat - İstanbul Gayrimenkul ve Tadilat',
+  description: 'İstanbul ve Tekirdağ genelinde profesyonel inşaat, gayrimenkul ve tadilat hizmetleri. Kağıthane, Alibeyköy, Şişli, Beyoğlu, Küçükçekmece, Büyükçekmece, Beylikdüzü, Esenyurt. 15 yıllık deneyim, 70+ proje.',
+  keywords: 'istanbul inşaat, istanbul tadilat, istanbul gayrimenkul, kağıthane inşaat, alibeyköy tadilat, şişli gayrimenkul, beyoğlu tadilat, küçükçekmece inşaat, büyükçekmece tadilat, beylikdüzü inşaat, esenyurt gayrimenkul, tekirdağ inşaat, tugcu inşaat',
+  authors: [{ name: 'TUGCU İnşaat' }],
   openGraph: {
-    title: 'TUĞCU İnşaat ve Tadilat | Beylikdüzü Satılık Ev, Tadilat, İnşaat',
-    description: 'Beylikdüzü, Esenyurt, Büyükçekmece, Küçükçekmece, Silivri, Halkalı ve tüm İstanbul\'da inşaat, tadilat ve emlak hizmetleri. Hayalinizdeki eve uygun fiyatlarla kavuşun.',
+    title: 'TUGCU İnşaat - İstanbul Gayrimenkul ve Tadilat',
+    description: 'İstanbul ve Tekirdağ genelinde profesyonel inşaat, gayrimenkul ve tadilat hizmetleri. 15 yıllık deneyim, 70+ başarılı proje.',
     url: 'https://tugcuinsaat.com',
-    siteName: 'TUĞCU İnşaat ve Tadilat',
+    siteName: 'TUGCU İnşaat, Gayrimenkul ve Tadilat',
     locale: 'tr_TR',
     type: 'website',
   },
