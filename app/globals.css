@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-raleway: 'Raleway', system-ui, sans-serif;
+  --font-horizon: 'Orbitron', system-ui, sans-serif;
+  --brand-color: #ff9e57;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-raleway);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 to-brand-600;
+  }
+
+  .brand-gradient {
+    @apply bg-gradient-to-r from-brand-400 via-brand-500 to-brand-600;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-4 bg-gradient-to-r from-brand-400 to-brand-600 text-white font-semibold rounded-lg
+    shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300
+    hover:from-brand-500 hover:to-brand-700;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 bg-white text-brand-600 font-semibold rounded-lg border-2 border-brand-400
+    shadow-md hover:shadow-lg hover:bg-brand-50 transform hover:-translate-y-1 transition-all duration-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300
+    transform hover:-translate-y-2 overflow-hidden;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-gray-900 mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-xl text-gray-600 max-w-3xl mx-auto;
+  }
+}
