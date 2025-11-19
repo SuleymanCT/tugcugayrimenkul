@@ -55,7 +55,7 @@ export default function LocationsSection() {
             Çalışma Alanlarımız
           </div>
           <h2 className="section-title">
-            <span className="gradient-text">İstanbul ve Tekirdağ Geneli</span> Hizmetinizdeyiz
+            <span className="text-brand-600">İstanbul ve Tekirdağ Geneli</span> Hizmetinizdeyiz
           </h2>
           <p className="section-subtitle mt-4">
             Kağıthane, Alibeyköy, Küçükçekmece, Büyükçekmece, Şişli, Beyoğlu, Beylikdüzü ve Esenyurt başta olmak üzere

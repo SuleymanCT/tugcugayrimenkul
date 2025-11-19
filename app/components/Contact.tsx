@@ -78,7 +78,7 @@ export default function Contact() {
             İletişim
           </div>
           <h2 className="section-title">
-            Hemen <span className="gradient-text">İletişime Geçin</span>
+            Hemen <span className="text-brand-600">İletişime Geçin</span>
           </h2>
           <p className="section-subtitle mt-4">
             Projeniz için ücretsiz keşif ve detaylı fiyat teklifi alın

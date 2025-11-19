@@ -39,7 +39,7 @@ export default function Projects() {
             Projelerimiz
           </div>
           <h2 className="section-title">
-            Tamamladığımız <span className="gradient-text">Başarılı Projeler</span>
+            Tamamladığımız <span className="text-brand-600">Başarılı Projeler</span>
           </h2>
           <p className="section-subtitle mt-4">
             Yarıca'da 30'dan fazla projemizden bazı örnekler
