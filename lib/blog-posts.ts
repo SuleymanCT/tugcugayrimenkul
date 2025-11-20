@@ -1,3 +1,5 @@
+import { content2025Trendler } from './blog-content-2025-trendler'
+
 export interface BlogPost {
   slug: string
   title: string
@@ -12,6 +14,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: '2025-ev-tadilatı-trendleri',
+    title: '2025 Yılında Ev Tadilatı Trendleri: Modern Yaşam Alanları İçin İlham Rehberi',
+    excerpt: '2025 yılının en popüler ev tadilatı trendleri: Sürdürülebilir malzemeler, akıllı ev teknolojileri, minimalist tasarım ve daha fazlası. Modern yaşam alanları için kapsamlı ilham rehberi.',
+    date: '2024-11-21',
+    author: 'Tuğcu İnşaat',
+    category: 'Trend ve Tasarım',
+    tags: ['ev tadilatı', '2025 trendleri', 'modern tasarım', 'beylikdüzü tadilat', 'esenyurt ev yenileme', 'akıllı ev', 'minimalist tasarım'],
+    image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=2074',
+    readTime: '25 dk',
+    content: content2025Trendler
+  },
   {
     slug: 'mutfak-tadilatinda-nelere-dikkat-edilmeli',
     title: 'Mutfak Tadilatında Nelere Dikkat Edilmeli? Beylikdüzü ve Esenyurt\'ta Profesyonel Rehber',
