@@ -10,6 +10,7 @@ import WhyUs from './components/WhyUs'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import LocationsSection from './components/LocationsSection'
+import BlogSection from './components/BlogSection'
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false)
@@ -31,6 +32,7 @@ export default function Home() {
       <WhyUs />
       <LocationsSection />
       <Projects />
+      <BlogSection />
       <Contact />
       <Footer />
     </main>

@@ -11,11 +11,12 @@ export default function Navbar({ scrolled }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navLinks = [
-    { href: '#anasayfa', label: 'Ana Sayfa' },
-    { href: '#hizmetler', label: 'Hizmetlerimiz' },
-    { href: '#hakkimizda', label: 'Hakkımızda' },
-    { href: '#projeler', label: 'Projelerimiz' },
-    { href: '#iletisim', label: 'İletişim' },
+    { href: '/#anasayfa', label: 'Ana Sayfa' },
+    { href: '/#hizmetler', label: 'Hizmetlerimiz' },
+    { href: '/#hakkimizda', label: 'Hakkımızda' },
+    { href: '/#projeler', label: 'Projelerimiz' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/#iletisim', label: 'İletişim' },
   ]
 
   return (
@@ -27,7 +28,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
       <div className="section-container">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#anasayfa" className="flex items-center">
+          <a href="/" className="flex items-center">
             <div className="flex flex-col leading-tight">
               <span className={`text-3xl font-horizon font-black tracking-wider transition-colors ${
                 scrolled ? 'text-primary-900' : 'text-white'
