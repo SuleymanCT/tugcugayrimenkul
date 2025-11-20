@@ -16,13 +16,13 @@ const horizon = Orbitron({
 })
 
 export const metadata: Metadata = {
-  title: 'TUGCU İnşaat - İstanbul Gayrimenkul ve Tadilat',
-  description: 'İstanbul ve Tekirdağ genelinde profesyonel inşaat, gayrimenkul ve tadilat hizmetleri. Kağıthane, Alibeyköy, Şişli, Beyoğlu, Küçükçekmece, Büyükçekmece, Beylikdüzü, Esenyurt. 15 yıllık deneyim, 70+ proje.',
+  title: 'Tuğcu İnşaat | İstanbul İnşaat Tadilat Emlak | Beylikdüzü Esenyurt',
+  description: 'Tuğcu İnşaat - İstanbul Beylikdüzü, Esenyurt, Büyükçekmece\'de 15 yıllık tecrübe ile inşaat, tadilat ve emlak hizmetleri. Ücretsiz keşif için hemen arayın!',
   keywords: 'istanbul inşaat, istanbul tadilat, istanbul gayrimenkul, kağıthane inşaat, alibeyköy tadilat, şişli gayrimenkul, beyoğlu tadilat, küçükçekmece inşaat, büyükçekmece tadilat, beylikdüzü inşaat, esenyurt gayrimenkul, tekirdağ inşaat, tugcu inşaat',
   authors: [{ name: 'TUGCU İnşaat' }],
   openGraph: {
-    title: 'TUGCU İnşaat - İstanbul Gayrimenkul ve Tadilat',
-    description: 'İstanbul ve Tekirdağ genelinde profesyonel inşaat, gayrimenkul ve tadilat hizmetleri. 15 yıllık deneyim, 70+ başarılı proje.',
+    title: 'Tuğcu İnşaat | İstanbul İnşaat Tadilat Emlak | Beylikdüzü Esenyurt',
+    description: 'Tuğcu İnşaat - İstanbul Beylikdüzü, Esenyurt, Büyükçekmece\'de 15 yıllık tecrübe ile inşaat, tadilat ve emlak hizmetleri. Ücretsiz keşif için hemen arayın!',
     url: 'https://tugcuinsaat.com',
     siteName: 'TUGCU İnşaat, Gayrimenkul ve Tadilat',
     locale: 'tr_TR',

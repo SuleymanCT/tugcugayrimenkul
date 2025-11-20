@@ -31,8 +31,8 @@ export default function Hero() {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Hayalinizdeki Projeyi
-            <span className="block text-brand-400">Birlikte Gerçekleştirelim</span>
+            İstanbul'da Profesyonel
+            <span className="block text-brand-400">İnşaat ve Tadilat Hizmetleri</span>
           </h1>
 
           {/* Description */}
