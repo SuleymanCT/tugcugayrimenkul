@@ -15,7 +15,7 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: '2025-ev-tadilatı-trendleri',
+    slug: '2025-ev-tadilati-trendleri',
     title: '2025 Yılında Ev Tadilatı Trendleri: Modern Yaşam Alanları İçin İlham Rehberi',
     excerpt: '2025 yılının en popüler ev tadilatı trendleri: Sürdürülebilir malzemeler, akıllı ev teknolojileri, minimalist tasarım ve daha fazlası. Modern yaşam alanları için kapsamlı ilham rehberi.',
     date: '2024-11-21',
