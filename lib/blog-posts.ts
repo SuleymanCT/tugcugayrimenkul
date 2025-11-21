@@ -1,6 +1,7 @@
 import { content2025Trendler } from './blog-content-2025-trendler'
 import { contentBeylikduzu } from './blog-content-beylikduzu'
 import { contentKucukcekmece } from './blog-content-kucukcekmece'
+import { contentCamBalkon } from './blog-content-cam-balkon'
 
 export interface BlogPost {
   slug: string
@@ -16,6 +17,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'cam-balkon-kapatma-rehberi',
+    title: 'Cam Balkon Kapatma Rehberi: Balkonunuzu Yaşam Alanına Dönüştürün',
+    excerpt: 'Cam balkon sistemleri hakkında detaylı rehber: Katlanır, sürme, guillotine sistemler, malzeme seçimi, montaj süreci, bakım ve bölgesel öneriler ile balkonunuzu yaşam alanına dönüştürün.',
+    date: '2024-11-21',
+    author: 'Tuğcu İnşaat',
+    category: 'Özel Uygulamalar',
+    tags: ['cam balkon', 'balkon kapatma', 'katlanır cam', 'sürme cam balkon', 'beylikdüzü cam balkon', 'esenyurt cam balkon', 'istanbul cam balkon', 'balkon', 'kış bahçesi'],
+    image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2070',
+    readTime: '32 dk',
+    content: contentCamBalkon
+  },
   {
     slug: 'kucukcekmece-ev-tadilati',
     title: 'Küçükçekmece Ev Tadilatı: Kapsamlı Rehber',
