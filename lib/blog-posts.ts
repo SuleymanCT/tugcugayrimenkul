@@ -2,6 +2,7 @@ import { content2025Trendler } from './blog-content-2025-trendler'
 import { contentBeylikduzu } from './blog-content-beylikduzu'
 import { contentKucukcekmece } from './blog-content-kucukcekmece'
 import { contentCamBalkon } from './blog-content-cam-balkon'
+import { contentInnovia } from './blog-content-innovia'
 
 export interface BlogPost {
   slug: string
@@ -17,6 +18,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'innovia-tadilat-hizmetleri',
+    title: 'Innovia 1, Innovia 2 ve Innovia 3 Tadilat ve Tamirat Hizmetleri',
+    excerpt: 'Innovia sitelerine özel tadilat hizmetleri: Komple daire tadilatı, mutfak ve banyo yenileme, boya, zemin kaplama, elektrik ve tesisat işleri. Yerel ofisimizle Innovia sakinlerine hızlı ve güvenilir hizmet.',
+    date: '2024-11-21',
+    author: 'Tuğcu İnşaat',
+    category: 'Site Özel Hizmetler',
+    tags: ['innovia', 'innovia 1', 'innovia 2', 'innovia 3', 'innovia tadilat', 'esenyurt tadilat', 'esenyurt', 'yeşilkent', 'site tadilatı', 'daire tadilatı'],
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070',
+    readTime: '26 dk',
+    content: contentInnovia
+  },
   {
     slug: 'cam-balkon-kapatma-rehberi',
     title: 'Cam Balkon Kapatma Rehberi: Balkonunuzu Yaşam Alanına Dönüştürün',
