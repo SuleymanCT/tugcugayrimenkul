@@ -3,6 +3,7 @@ import { contentBeylikduzu } from './blog-content-beylikduzu'
 import { contentKucukcekmece } from './blog-content-kucukcekmece'
 import { contentCamBalkon } from './blog-content-cam-balkon'
 import { contentInnovia } from './blog-content-innovia'
+import { contentEsenyurt } from './blog-content-esenyurt'
 
 export interface BlogPost {
   slug: string
@@ -18,6 +19,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'esenyurt-ev-tadilati',
+    title: 'Esenyurt Ev Tadilatı: Profesyonel Rehber',
+    excerpt: 'Esenyurt\'ta ev tadilatı rehberi: Mahalle bazlı öneriler, bölgeye özel çözümler, komple tadilat, mutfak ve banyo yenileme hizmetleri. Yeşilkent, Fatih, Güzelyurt ve tüm Esenyurt mahallelerinde profesyonel hizmet.',
+    date: '2024-11-22',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['esenyurt', 'esenyurt ev tadilatı', 'esenyurt tadilat', 'yeşilkent tadilat', 'fatih mahallesi tadilat', 'güzelyurt tadilat', 'istanbul tadilat', 'ev tadilatı', 'mutfak tadilatı', 'banyo tadilatı'],
+    image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2074',
+    readTime: '30 dk',
+    content: contentEsenyurt
+  },
   {
     slug: 'innovia-tadilat-hizmetleri',
     title: 'Innovia 1, Innovia 2 ve Innovia 3 Tadilat ve Tamirat Hizmetleri',
