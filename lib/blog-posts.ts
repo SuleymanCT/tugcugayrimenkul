@@ -4,6 +4,7 @@ import { contentKucukcekmece } from './blog-content-kucukcekmece'
 import { contentCamBalkon } from './blog-content-cam-balkon'
 import { contentInnovia } from './blog-content-innovia'
 import { contentEsenyurt } from './blog-content-esenyurt'
+import { contentParke } from './blog-content-parke'
 
 export interface BlogPost {
   slug: string
@@ -19,6 +20,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'parke-doseme-rehberi',
+    title: 'Parke Döşeme Rehberi: Eviniz İçin Doğru Zemin Seçimi',
+    excerpt: 'Parke döşeme rehberi: Laminat, SPC, masif parke türleri, malzeme seçimi, döşeme yöntemleri, bakım önerileri. Beylikdüzü, Esenyurt ve İstanbul genelinde profesyonel parke döşeme hizmeti.',
+    date: '2024-11-22',
+    author: 'Tuğcu İnşaat',
+    category: 'Tadilat Rehberleri',
+    tags: ['parke', 'parke döşeme', 'laminat parke', 'zemin kaplama', 'spc laminat', 'masif parke', 'ahşap zemin', 'beylikdüzü parke', 'esenyurt parke', 'istanbul parke'],
+    image: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=2080',
+    readTime: '35 dk',
+    content: contentParke
+  },
   {
     slug: 'esenyurt-ev-tadilati',
     title: 'Esenyurt Ev Tadilatı: Profesyonel Rehber',
