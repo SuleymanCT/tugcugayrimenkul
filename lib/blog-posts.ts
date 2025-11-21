@@ -1,4 +1,5 @@
 import { content2025Trendler } from './blog-content-2025-trendler'
+import { contentBeylikduzu } from './blog-content-beylikduzu'
 
 export interface BlogPost {
   slug: string
@@ -14,6 +15,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'beylikduzu-ev-tadilati',
+    title: 'Beylikdüzü Ev Tadilatı: Kapsamlı Rehber ve Öneriler',
+    excerpt: 'Beylikdüzü\'nde ev tadilatı için kapsamlı rehber: Bölgeye özel öneriler, popüler tadilat türleri, malzeme seçimi, süreçler ve uzman tavsiyeleri ile hayalinizdeki eve kavuşun.',
+    date: '2024-11-21',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['beylikdüzü', 'beylikdüzü ev tadilatı', 'beylikdüzü tadilat', 'istanbul tadilat', 'ev tadilatı', 'mutfak tadilatı', 'banyo tadilatı', 'komple tadilat'],
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070',
+    readTime: '30 dk',
+    content: contentBeylikduzu
+  },
   {
     slug: '2025-ev-tadilati-trendleri',
     title: '2025 Yılında Ev Tadilatı Trendleri: Modern Yaşam Alanları İçin İlham Rehberi',
