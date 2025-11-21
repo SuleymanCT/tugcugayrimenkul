@@ -42,6 +42,24 @@ const projects = [
     location: 'Kağıthane, İstanbul',
     image: '/proje7.jpg',
     description: ''
+  },
+  {
+    title: 'Innovia 2 Sitesi Tadilat İşleri',
+    location: 'Esenyurt, İstanbul',
+    image: '/proje8.jpg',
+    description: ''
+  },
+  {
+    title: 'Innovia 1 Sitesi Tadilat İşleri',
+    location: 'Esenyurt, İstanbul',
+    image: '/proje9.jpg',
+    description: ''
+  },
+  {
+    title: 'Innovia 3 Sitesi Tadilat İşleri',
+    location: 'Esenyurt, İstanbul',
+    image: '/proje10.jpg',
+    description: ''
   }
 ]
 
@@ -55,7 +73,7 @@ export default function Projects() {
             Projelerimiz
           </div>
           <h2 className="section-title">
-            Tamamladığımız <span className="text-brand-600">Başarılı Projeler</span>
+            Tamamladığımız <span className="text-brand-600">Başarılı Projeler ve Alabileceğiniz Hizmetler</span>
           </h2>
           <p className="section-subtitle mt-4">
             Yarıca'da 30'dan fazla projemizden bazı örnekler
