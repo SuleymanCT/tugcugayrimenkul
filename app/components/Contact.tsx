@@ -6,13 +6,13 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: FaPhone,
-      title: 'Telefon 1',
+      title: 'Telefon 1 - Doğan Tuğcu',
       content: '0533 258 24 68',
       link: 'tel:+905332582468'
     },
     {
       icon: FaPhone,
-      title: 'Telefon 2',
+      title: 'Telefon 2 - Süleyman Can Tuğcu',
       content: '0533 235 68 24',
       link: 'tel:+905332356824'
     },
