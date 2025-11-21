@@ -1,5 +1,6 @@
 import { content2025Trendler } from './blog-content-2025-trendler'
 import { contentBeylikduzu } from './blog-content-beylikduzu'
+import { contentKucukcekmece } from './blog-content-kucukcekmece'
 
 export interface BlogPost {
   slug: string
@@ -15,6 +16,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'kucukcekmece-ev-tadilati',
+    title: 'Küçükçekmece Ev Tadilatı: Kapsamlı Rehber',
+    excerpt: 'Küçükçekmece\'de ev tadilatı rehberi: Mahalle bazlı öneriler, nem ve ses yalıtımı, enerji verimliliği, bölgeye özel tadilat çözümleri ve uzman tavsiyeleri.',
+    date: '2024-11-21',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['küçükçekmece', 'küçükçekmece tadilat', 'küçükçekmece ev tadilatı', 'halkalı tadilat', 'sefaköy tadilat', 'istanbul tadilat', 'ev tadilatı', 'mutfak tadilatı', 'banyo tadilatı'],
+    image: 'https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?q=80&w=2074',
+    readTime: '28 dk',
+    content: contentKucukcekmece
+  },
   {
     slug: 'beylikduzu-ev-tadilati',
     title: 'Beylikdüzü Ev Tadilatı: Kapsamlı Rehber ve Öneriler',
