@@ -1,30 +1,46 @@
 'use client'
 
-import { useState } from 'react'
-
 const projects = [
   {
     title: 'Çok Katlı Apartmanlar',
     location: 'Anadolu Yakası, İstanbul',
-    image: '/proje1.jpg', // Kendi görselinizi buraya koyun
+    image: '/proje1.jpg',
     description: ''
   },
   {
     title: 'Lüks Yeni Tip Apartmanlar',
     location: 'Göztepe, İstanbul',
-    image: '/proje2.jpg', // Kendi görselinizi buraya koyun
+    image: '/proje2.jpg',
     description: ''
   },
   {
     title: 'Lüks Daireler',
     location: 'Çağlayan, İstanbul',
-    image: '/proje3.jpg', // Kendi görselinizi buraya koyun
+    image: '/proje3.jpg',
     description: ''
   },
   {
     title: 'Apartman ve Daire Tadilatı',
     location: 'Şişli, İstanbul',
-    image: '/proje4.jpg', // Kendi görselinizi buraya koyun
+    image: '/proje4.jpg',
+    description: ''
+  },
+  {
+    title: 'Modern Konut Projesi',
+    location: 'Çağlayan, İstanbul',
+    image: '/proje5.jpg',
+    description: ''
+  },
+  {
+    title: 'Lüks Daire Tadilatı',
+    location: 'Kağıthane, İstanbul',
+    image: '/proje6.jpg',
+    description: ''
+  },
+  {
+    title: 'Komple Ev Yenileme',
+    location: 'Kağıthane, İstanbul',
+    image: '/proje7.jpg',
     description: ''
   }
 ]
@@ -47,7 +63,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
