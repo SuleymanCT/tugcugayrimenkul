@@ -5,6 +5,7 @@ import { contentCamBalkon } from './blog-content-cam-balkon'
 import { contentInnovia } from './blog-content-innovia'
 import { contentEsenyurt } from './blog-content-esenyurt'
 import { contentParke } from './blog-content-parke'
+import { contentTadilatFirmaSecimi } from './blog-content-tadilat-firma-secimi'
 
 export interface BlogPost {
   slug: string
@@ -20,6 +21,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'tadilat-firmasi-nasil-secilir',
+    title: 'Tadilat Firması Nasıl Seçilir: Doğru Tercih İçin Kapsamlı Rehber',
+    excerpt: 'Tadilat firması seçerken dikkat edilmesi gerekenler: Deneyim, referanslar, belgeler, fiyatlandırma ve sözleşme şartları. Beylikdüzü, Esenyurt ve İstanbul genelinde güvenilir firma seçimi için detaylı rehber.',
+    date: '2024-11-23',
+    author: 'Tuğcu İnşaat',
+    category: 'Tadilat Rehberleri',
+    tags: ['tadilat firması', 'tadilat firması seçimi', 'güvenilir tadilat', 'istanbul tadilat', 'esenyurt tadilat', 'beylikdüzü tadilat', 'ev tadilatı', 'tadilat rehberi', 'firma seçimi', 'tadilat sözleşmesi'],
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070',
+    readTime: '40 dk',
+    content: contentTadilatFirmaSecimi
+  },
   {
     slug: 'parke-doseme-rehberi',
     title: 'Parke Döşeme Rehberi: Eviniz İçin Doğru Zemin Seçimi',
