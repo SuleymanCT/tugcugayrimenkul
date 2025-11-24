@@ -6,6 +6,7 @@ import { contentInnovia } from './blog-content-innovia'
 import { contentEsenyurt } from './blog-content-esenyurt'
 import { contentParke } from './blog-content-parke'
 import { contentTadilatFirmaSecimi } from './blog-content-tadilat-firma-secimi'
+import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
 
 export interface BlogPost {
   slug: string
@@ -21,6 +22,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'beylikduzu-parke-doseme',
+    title: 'Beylikdüzü Parke Döşeme: Zemin Kaplama Rehberi',
+    excerpt: 'Beylikdüzü\'de parke döşeme rehberi: Deniz havasına dayanıklı parke seçimi, mahalle bazlı öneriler, SPC ve laminat parke uygulamaları. Beylikdüzü\'nün tüm mahallelerinde profesyonel parke döşeme hizmeti.',
+    date: '2024-11-24',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['beylikdüzü parke', 'beylikdüzü parke döşeme', 'beylikdüzü laminat', 'beylikdüzü zemin kaplama', 'spc laminat beylikdüzü', 'parke beylikdüzü', 'laminat parke beylikdüzü', 'istanbul parke', 'zemin döşeme', 'adnan kahveci parke'],
+    image: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=2080',
+    readTime: '38 dk',
+    content: contentBeylikduzuParke
+  },
   {
     slug: 'tadilat-firmasi-nasil-secilir',
     title: 'Tadilat Firması Nasıl Seçilir: Doğru Tercih İçin Kapsamlı Rehber',
