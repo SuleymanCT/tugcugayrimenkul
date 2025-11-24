@@ -7,6 +7,7 @@ import { contentEsenyurt } from './blog-content-esenyurt'
 import { contentParke } from './blog-content-parke'
 import { contentTadilatFirmaSecimi } from './blog-content-tadilat-firma-secimi'
 import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
+import { contentEsenyurtParke } from './blog-content-esenyurt-parke'
 
 export interface BlogPost {
   slug: string
@@ -22,6 +23,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'esenyurt-parke-doseme',
+    title: 'Esenyurt Parke Döşeme: Kapsamlı Zemin Kaplama Rehberi',
+    excerpt: 'Esenyurt\'ta parke döşeme rehberi: Mahalle bazlı öneriler (Yeşilkent, Fatih, Güzelyurt), her bütçeye uygun parke seçenekleri, SPC ve laminat uygulamaları. Esenyurt\'un tüm mahallelerinde profesyonel hizmet.',
+    date: '2024-11-24',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['esenyurt parke', 'esenyurt parke döşeme', 'yeşilkent parke', 'esenyurt laminat', 'spc laminat esenyurt', 'parke esenyurt', 'laminat parke esenyurt', 'istanbul parke', 'zemin döşeme', 'innovia parke'],
+    image: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=2080',
+    readTime: '42 dk',
+    content: contentEsenyurtParke
+  },
   {
     slug: 'beylikduzu-parke-doseme',
     title: 'Beylikdüzü Parke Döşeme: Zemin Kaplama Rehberi',
