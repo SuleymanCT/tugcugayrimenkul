@@ -1,3 +1,5 @@
+import { contentLaminatParke } from './guide-content-laminat'
+
 export interface GuidePost {
   slug: string
   title: string
@@ -12,6 +14,18 @@ export interface GuidePost {
 }
 
 export const guidePosts: GuidePost[] = [
+  {
+    slug: 'laminat-parke-doseme-klavuzu-2025',
+    title: 'Laminat Parke Döşeme Kılavuzu 2025: Modern Zemin Çözümleri',
+    excerpt: '2025 laminat parke trendleri, AC sınıfları, SPC laminat, adım adım döşeme rehberi ve bakım ipuçları. Doğru laminat parke seçimi ve profesyonel uygulama için kapsamlı kılavuz.',
+    date: '2024-11-26',
+    author: 'Tuğcu İnşaat',
+    category: 'Zemin Kılavuzları',
+    tags: ['laminat parke', 'parke döşeme', 'AC4', 'SPC laminat', '2025 trendleri', 'zemin kaplama', 'parke montajı', 'su geçirmez parke'],
+    image: 'https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=2080',
+    readTime: '25 dk',
+    content: contentLaminatParke
+  },
   {
     slug: 'ev-tadilati-oncesi-bilmeniz-gerekenler',
     title: 'Ev Tadilatı Öncesi Bilmeniz Gerekenler: Kapsamlı Başlangıç Kılavuzu',
