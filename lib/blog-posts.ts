@@ -8,6 +8,7 @@ import { contentParke } from './blog-content-parke'
 import { contentTadilatFirmaSecimi } from './blog-content-tadilat-firma-secimi'
 import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
 import { contentEsenyurtParke } from './blog-content-esenyurt-parke'
+import { contentEskiEvYenileme } from './blog-content-eski-ev-yenileme'
 
 export interface BlogPost {
   slug: string
@@ -23,6 +24,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'eski-ev-yenileme-rehberi',
+    title: 'Eski Ev Yenileme Rehberi: Beylikdüzü ve Esenyurt\'ta Kapsamlı Tadilat Çözümleri',
+    excerpt: 'Beylikdüzü ve Esenyurt\'ta eski ev yenileme rehberi: Komple tadilat, altyapı yenileme, yalıtım işleri, malzeme seçimi ve bütçe planlama. Eski evinizi modern yaşam alanına dönüştürün.',
+    date: '2024-11-25',
+    author: 'Tuğcu İnşaat',
+    category: 'Tadilat Rehberleri',
+    tags: ['eski ev yenileme', 'eski ev tadilatı', 'beylikdüzü eski ev', 'esenyurt eski ev', 'komple tadilat', 'ev yenileme', 'altyapı yenileme', 'istanbul tadilat', 'eski daire tadilatı', 'ev modernizasyonu'],
+    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=2070',
+    readTime: '45 dk',
+    content: contentEskiEvYenileme
+  },
   {
     slug: 'esenyurt-parke-doseme',
     title: 'Esenyurt Parke Döşeme: Kapsamlı Zemin Kaplama Rehberi',
