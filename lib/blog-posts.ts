@@ -9,6 +9,7 @@ import { contentTadilatFirmaSecimi } from './blog-content-tadilat-firma-secimi'
 import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
 import { contentEsenyurtParke } from './blog-content-esenyurt-parke'
 import { contentEskiEvYenileme } from './blog-content-eski-ev-yenileme'
+import { contentInnovia2 } from './blog-content-innovia2'
 
 export interface BlogPost {
   slug: string
@@ -24,6 +25,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'innovia-2-ev-tadilati',
+    title: 'Innovia 2 Ev Tadilatı: Site Sakinleri İçin Özel Tadilat Rehberi',
+    excerpt: 'Innovia 2 site sakinleri için özel tadilat rehberi. Ofisimiz Innovia 2\'de! Komple daire, mutfak, banyo, boya ve zemin tadilatı. Aynı gün keşif, hızlı ve profesyonel hizmet.',
+    date: '2024-11-26',
+    author: 'Tuğcu İnşaat',
+    category: 'Site Özel Hizmetler',
+    tags: ['innovia 2', 'innovia 2 tadilat', 'innovia 2 ev tadilatı', 'yeşilkent', 'esenyurt', 'innovia 2 esenyurt', 'site içi tadilat', 'daire tadilatı', 'innovia 2 yenileme', 'komşu tadilat'],
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070',
+    readTime: '28 dk',
+    content: contentInnovia2
+  },
   {
     slug: 'eski-ev-yenileme-rehberi',
     title: 'Eski Ev Yenileme Rehberi: Beylikdüzü ve Esenyurt\'ta Kapsamlı Tadilat Çözümleri',
