@@ -15,6 +15,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
     { href: '/#hizmetler', label: 'Hizmetlerimiz' },
     { href: '/#hakkimizda', label: 'Hakkımızda' },
     { href: '/#projeler', label: 'Projelerimiz' },
+    { href: '/kilavuzlar', label: 'Kılavuzlar' },
     { href: '/blog', label: 'Blog' },
     { href: '/#iletisim', label: 'İletişim' },
   ]
