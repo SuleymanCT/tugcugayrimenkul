@@ -10,6 +10,7 @@ import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
 import { contentEsenyurtParke } from './blog-content-esenyurt-parke'
 import { contentEskiEvYenileme } from './blog-content-eski-ev-yenileme'
 import { contentInnovia2 } from './blog-content-innovia2'
+import { contentTekirdag } from './blog-content-tekirdag'
 
 export interface BlogPost {
   slug: string
@@ -25,6 +26,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'tekirdag-tadilat-insaat',
+    title: 'Tekirdağ Tadilat ve İnşaat Hizmetleri: Kapsamlı Rehber',
+    excerpt: 'Tekirdağ\'da ev tadilatı rehberi: Çorlu, Süleymanpaşa, Çerkezköy, Şarköy ve tüm ilçelerde profesyonel tadilat hizmetleri. Sahil villalarından kent merkezine, bölgeye özel çözümler.',
+    date: '2024-11-27',
+    author: 'Tuğcu İnşaat',
+    category: 'Bölgesel Rehberler',
+    tags: ['tekirdağ tadilat', 'çorlu tadilat', 'tekirdağ ev tadilatı', 'şarköy tadilat', 'tekirdağ inşaat', 'villa tadilatı', 'sahil evi tadilatı', 'tekirdağ usta', 'trakya tadilat', 'marmara'],
+    image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070',
+    readTime: '45 dk',
+    content: contentTekirdag
+  },
   {
     slug: 'innovia-2-ev-tadilati',
     title: 'Innovia 2 Ev Tadilatı: Site Sakinleri İçin Özel Tadilat Rehberi',
