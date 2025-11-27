@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description: 'Tuğcu İnşaat - İstanbul Beylikdüzü, Esenyurt, Büyükçekmece\'de 15 yıllık tecrübe ile inşaat, tadilat ve emlak hizmetleri. Ücretsiz keşif için hemen arayın!',
   keywords: 'istanbul inşaat, istanbul tadilat, istanbul gayrimenkul, kağıthane inşaat, alibeyköy tadilat, şişli gayrimenkul, beyoğlu tadilat, küçükçekmece inşaat, büyükçekmece tadilat, beylikdüzü inşaat, esenyurt gayrimenkul, tekirdağ inşaat, tugcu inşaat',
   authors: [{ name: 'TUGCU İnşaat' }],
+  icons: {
+    icon: '/favicon.png',
+  },
   openGraph: {
     title: 'Tuğcu İnşaat | İstanbul İnşaat Tadilat Emlak | Beylikdüzü Esenyurt',
     description: 'Tuğcu İnşaat - İstanbul Beylikdüzü, Esenyurt, Büyükçekmece\'de 15 yıllık tecrübe ile inşaat, tadilat ve emlak hizmetleri. Ücretsiz keşif için hemen arayın!',
