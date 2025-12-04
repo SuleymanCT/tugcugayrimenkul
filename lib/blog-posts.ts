@@ -10,6 +10,7 @@ import { contentBeylikduzuParke } from './blog-content-beylikduzu-parke'
 import { contentEsenyurtParke } from './blog-content-esenyurt-parke'
 import { contentEskiEvYenileme } from './blog-content-eski-ev-yenileme'
 import { contentInnovia2 } from './blog-content-innovia2'
+import { contentInnovia2Hizmetler } from './blog-content-innovia2-hizmetler'
 import { contentTekirdag } from './blog-content-tekirdag'
 
 export interface BlogPost {
@@ -26,6 +27,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'innovia-2-sitesi-tadilat-hizmetlerimiz',
+    title: 'Innovia 2 Sitesi Tadilat Hizmetlerimiz: Komşunuzdan Profesyonel Çözümler',
+    excerpt: 'Innovia 2\'de ofisimiz var! Komşunuzdan 15-30 dakikada keşif, aynı gün teklif. Komple daire, mutfak, banyo, parke, boya. 50+ referans, site sakinlerine özel fiyat. Hızlı, güvenilir, profesyonel.',
+    date: '2024-11-27',
+    author: 'Tuğcu İnşaat',
+    category: 'Site Özel Hizmetler',
+    tags: ['innovia 2', 'innovia 2 tadilat', 'site tadilat', 'komşu tadilat', 'yeşilkent', 'esenyurt', 'daire tadilatı', 'hızlı tadilat', 'site içi hizmet', 'ofis innovia 2'],
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070',
+    readTime: '35 dk',
+    content: contentInnovia2Hizmetler
+  },
   {
     slug: 'tekirdag-tadilat-insaat',
     title: 'Tekirdağ Tadilat ve İnşaat Hizmetleri: Kapsamlı Rehber',
