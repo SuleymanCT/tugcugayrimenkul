@@ -12,6 +12,7 @@ import { contentEskiEvYenileme } from './blog-content-eski-ev-yenileme'
 import { contentInnovia2 } from './blog-content-innovia2'
 import { contentInnovia2Hizmetler } from './blog-content-innovia2-hizmetler'
 import { contentTekirdag } from './blog-content-tekirdag'
+import { contentKatKarsiligi } from './blog-content-kat-karsiligi'
 
 export interface BlogPost {
   slug: string
@@ -27,6 +28,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'kat-karsiligi-insaat-rehberi',
+    title: 'Kat Karşılığı İnşaat: 2025 Kapsamlı Rehberi',
+    excerpt: 'Kat karşılığı inşaat nedir, nasıl çalışır? Arsa sahibi ve müteahhit hakları, pay oranları, sözleşme şartları, riskler ve avantajlar. Kentsel dönüşüm ve kat karşılığı inşaat için detaylı rehber.',
+    date: '2025-12-10',
+    author: 'Tuğcu İnşaat',
+    category: 'İnşaat Rehberleri',
+    tags: ['kat karşılığı inşaat', 'arsa sahibi', 'müteahhit', 'kentsel dönüşüm', 'inşaat sözleşmesi', 'kat irtifakı', 'arsa payı', 'inşaat projesi', 'daire karşılığı', 'türkiye inşaat'],
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070',
+    readTime: '60 dk',
+    content: contentKatKarsiligi
+  },
   {
     slug: 'innovia-2-sitesi-tadilat-hizmetlerimiz',
     title: 'Innovia 2 Sitesi Tadilat Hizmetlerimiz: Komşunuzdan Profesyonel Çözümler',
