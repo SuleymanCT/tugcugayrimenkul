@@ -13,6 +13,7 @@ import { contentInnovia2 } from './blog-content-innovia2'
 import { contentInnovia2Hizmetler } from './blog-content-innovia2-hizmetler'
 import { contentTekirdag } from './blog-content-tekirdag'
 import { contentKatKarsiligi } from './blog-content-kat-karsiligi'
+import { contentKiraciSonrasi } from './blog-content-kiraci-sonrasi'
 
 export interface BlogPost {
   slug: string
@@ -28,6 +29,18 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'esenyurt-kiraci-sonrasi-ev-yenileme',
+    title: 'Esenyurt\'ta Kiracı Sonrası Ev Yenileme: Hızlı ve Ekonomik Tadilat Rehberi',
+    excerpt: 'Kiracı çıkışı sonrası ev yenileme rehberi: Hızlı tadilat stratejileri, maliyet hesaplama, yatırım geri dönüşü. Esenyurt\'a özel 1 haftalık tadilat planı, gerçek vakalar ve pratik ipuçları.',
+    date: '2025-12-11',
+    author: 'Tuğcu İnşaat',
+    category: 'Tadilat Rehberleri',
+    tags: ['esenyurt tadilat', 'kiracı sonrası tadilat', 'hızlı tadilat', 'kiralık ev', 'ev yenileme', 'esenyurt ev sahibi', 'tadilat hizmetleri', 'ekonomik tadilat', 'boya badana', 'banyo yenileme'],
+    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=2070',
+    readTime: '50 dk',
+    content: contentKiraciSonrasi
+  },
   {
     slug: 'kat-karsiligi-insaat-rehberi',
     title: 'Kat Karşılığı İnşaat: 2025 Kapsamlı Rehberi',
